@@ -38,7 +38,7 @@ function getRandomHexColor() {
 
 let geojson = geojson_array[0];
 let features = new ol.format.GeoJSON().readFeatures(geojson, {dataProjection: 'EPSG:3301', featureProjection: 'EPSG:3301'});
-let hex_color = '#bb0000';
+let hex_color = '#ff3a5a';
 
 const layer = new ol.layer.Vector({
   //declutter: true,
